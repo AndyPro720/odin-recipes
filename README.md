@@ -1,2 +1,1 @@
-This is check test
-q
+This website is part of the Odin Project. 
