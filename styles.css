@@ -1,0 +1,42 @@
+body {
+    background:linear-gradient(-45deg, rgb(12, 230, 165), rgb(55, 150, 12), rgba(176, 22, 190, 0.603), rgb(15, 167, 194), #db0e1f); 
+    font-family: 'Georgia', 'Lucida Handwriting', 'Fantasy' ;
+    animation: test 10s ease-in-out infinite; 
+    background-size: 300% 300%;
+}
+
+
+@keyframes test {
+    50% {
+        background-position: center;
+    }
+    100% {
+        background-position: top left;
+    }
+
+}
+
+h2 {
+    background-color: rgb(233, 199, 11);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+img {
+    height:auto;
+    width: 400px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+a:link {
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+}
+
+a:visited {
+    color:greenyellow;
+}
