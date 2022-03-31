@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(#1b7ace, #38ce17, rgba(163, 189, 47, 0.933));
+    animation: bg 5s infinite;
+    background-size: 300% 300%;
+    background-position: top left;
+}
+
+@keyframes bg {
+   50% {background-position: center;} 
+}
