@@ -5,6 +5,12 @@ body {
     background-size: 300% 300%;
 }
 
+h2{
+    width: 500px;
+    padding: 12px;
+    border: 12px double green;
+}
+
 
 @keyframes test {
     50% {
